@@ -1,6 +1,5 @@
 <?php
 require_once('database.php');
-USE br229;  -- MySQL command
 
 // Get category ID
 if (!isset($category_id)) {
@@ -10,6 +9,8 @@ if (!isset($category_id)) {
         $category_id = 1;
     }
 }
+USE br229;  -- MySQL command
+
 // Get name for selected category
 $queryCategory = 'SELECT * FROM categories
                   WHERE categoryID = :category_id';
