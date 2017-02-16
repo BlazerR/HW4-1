@@ -22,10 +22,6 @@ $statement1->closeCursor();
 
 
 // Get all categories
-define('DB_NAME', 'HW4-1');
-define('DB_USER', 'br229');
-define('DB_PASSWORD', '1Rm2Gizav');
-define('DB_HOST', 'sql1.njit.edu');
 
 $query = 'SELECT * FROM categories
                        ORDER BY categoryID';
