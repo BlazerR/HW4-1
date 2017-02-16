@@ -9,7 +9,7 @@ if (!isset($category_id)) {
         $category_id = 1;
     }
 }
-USE br229;  -- MySQL command
+USE br229;
 
 // Get name for selected category
 $queryCategory = 'SELECT * FROM categories
