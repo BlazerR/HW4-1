@@ -1,5 +1,6 @@
 <?php
 require_once('database.php');
+USE br229;  -- MySQL command
 
 // Get category ID
 if (!isset($category_id)) {
