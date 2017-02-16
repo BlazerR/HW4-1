@@ -23,6 +23,10 @@ $statement1->closeCursor();
 
 
 // Get all categories
+define('DB_NAME', 'Blazer');
+define('DB_USER', 'br229');
+define('DB_PASSWORD', '1Rm2Gizav');
+define('DB_HOST', 'sql1/sql2.njit.edu');
 $query = 'SELECT * FROM categories
                        ORDER BY categoryID';
 $statement = $db->prepare($query);
